@@ -1,0 +1,181 @@
+@font-face
+{
+   font-family: "Fuente_1";
+   src: url("../fonts/Helvetica-Bold.otf");
+}
+@font-face
+{
+   font-family: "Text_1";
+   src: url("../fonts/FRABK.TTF");
+}
+html,body
+{
+	margin:0;
+	background-color:#EDEDED;
+}
+h1,h2,h3,h4,h5
+{
+	text-align:center;
+	font-family:"Fuente_1";
+	background-color:#FC9F2D;
+	padding: 10px 0 10px 0;
+	border-radius: 5px 5px 5px 5px;
+	margin: 0 0 2px 0;
+}
+a
+{
+	text-decoration:none;
+	font-family: "Fuente_1";
+	color: #FF5900;
+	text-align:justify;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+p
+{
+	margin:10px 0 0 0;
+	font-family:"Text_1";
+	font-size:15px;
+	text-align:justify;
+}
+header
+{
+	position:relative;
+	width:100%;
+	height:175px;
+	margin: 25px 0 25px 0;
+	background:url('../img/fondo_1.png');
+	background-size: cover;
+}
+.logo
+{
+	float:left;
+	width:45%;
+	margin:10px 0 10px 5%;
+}
+.titulo
+{
+	float:left;
+	width:45%;
+	margin:10px 5% 10px 0;
+}
+.titulo h1
+{
+	font-family: "Fuente_1";
+	color: white !important;
+	background:none !important;
+	text-align:right;
+	margin: 15px 15px 0 0;
+}
+.buscar
+{
+	float:right;
+	margin:15px 0 0 0;
+}
+
+.buscar img
+{
+	margin:10px 0 0 10px;
+	padding:0 0 0 0;
+}
+.buscar input
+{
+	display:inline-table;
+	font-size:24px;
+	height:40px;
+	border:0;
+}
+
+#content
+{
+	position:relative;
+	width:80%;
+	margin:0 auto;
+}
+
+#sect-menu
+{
+	position:relative;
+	padding:5px 0 0 0;
+	float:left;
+	width:150px;
+}
+.menu
+{
+	width:100%;
+}
+.menu ul, .menu li
+{
+	margin:0;
+	padding:0;
+}
+.menu ul
+{
+	margin: 0 5px 15px 5px;
+}
+.menu li
+{
+	list-style:none;
+	padding:10px 10px 10px 10px;
+	background-color:#006680;
+}
+.menu li:first-child
+{
+	border-radius: 5px 5px 0 0;
+}
+.menu li:last-child
+{
+	border-radius: 0 0 5px 5px;
+}
+.menu li:hover
+{
+	background-color:#F2B80D;
+	cursor: pointer;
+}
+.menu a
+{
+	color:white;
+}
+#contenido-pagina
+{
+	position:relative;
+	padding:5px 0 0 0;
+	float:left;
+	width:80%;
+}
+
+#contenido-pagina ul
+{
+	margin:0;
+	background-color:#DDDDDD;
+	list-style-image:url("../img/check.png");
+}
+#contenido-pagina li
+{
+	background-color:#DDDDDD;
+	font-family:"Text_1";
+	padding:3px 2px 1px 3px;
+	margin:0 0 0 20px;
+}
+#contenido-pagina section
+{
+	width:100%;
+	margin:0 0 3px 0;
+	padding: 25px 25px 10px 25px;
+	background:#DDDDDD;
+	float:left;
+}
+article
+{
+	width:48%;
+	margin:0 1% 0 0;
+	float:left;
+}
+
+iframe
+{
+	width:100%;
+	height:100%;
+}
